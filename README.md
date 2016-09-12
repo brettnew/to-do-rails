@@ -1,24 +1,53 @@
-# README
+# To Do App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Simple To Do App, 09/06/2016
 
-Things you may want to cover:
+#### By Brett New and Olivia Hinton
 
-* Ruby version
+## Description
 
-* System dependencies
+User Can:
 
-* Configuration
+* Add, edit, view, and delete all lists.
+* Add, edit, view, and delete all tasks associated with lists
+* Mark a task done or not done
+* Filter tasks to view in a group which are done and not done.
 
-* Database creation
+## Setup/Installation Requirements
 
-* Database initialization
+* Clone this repository
+* In a terminal window, run postgres, and leave it running.
+* In another terminal window, go into this project directory and type bundle install
+* Type rake db:create
+* Then type rake db:migrate
+* Then type rake db:test:prepare
+* Run rails s in the terminal
+* Type localhost:3000/lists in browser
 
-* How to run the test suite
+## Known Bugs
 
-* Services (job queues, cache servers, search engines, etc.)
+No known bugs.
 
-* Deployment instructions
+## Support and Contact Details
 
-* ...
+Contact Brett New at brett.new91@gmail.com
+
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+* Ruby
+* Rails
+* PSQL
+* Active Record
+
+## Links
+
+Git Hub Repository: https://github.com/brettnew/ruby-week-4
+
+### License
+
+*This software is licensed under the GPL license.*
+
+Copyright (c) 2016 Brett New
